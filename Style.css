@@ -1,0 +1,30 @@
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.Nav, .Nav>a{
+    background-color:#333;
+    color: aliceblue;
+    text-align: left;
+    padding: 20px;
+
+}
+p{
+  background-color: rgb(225, 252, 255);
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 14px;
+}
+footer,#footLink{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding:10px;
+}
+
+
