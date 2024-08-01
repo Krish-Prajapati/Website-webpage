@@ -1,17 +1,28 @@
-h1 {
+.Nav>h3{
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  text-align: center;
+  text-align: right;
+  display: inline;
+  padding: 20px;
 }
-.Nav, .Nav>a{
+.Nav {
     background-color:#333;
     color: aliceblue;
     text-align: left;
     padding: 20px;
-
+    
 }
+.Nav>a{
+  color: aliceblue;
+  font-family: "DM Sans", sans-serif;
+  padding: 20px;
+}
+#content{
+  height : 980px;
+}
+
 p{
   background-color: rgb(225, 252, 255);
   font-family: "DM Sans", sans-serif;
@@ -19,7 +30,8 @@ p{
   font-weight: 500;
   font-style: normal;
   padding: 14px;
-}
+  line-height: 30px;
+  }
 footer,#footLink{
     background-color: #333;
     color: aliceblue;
